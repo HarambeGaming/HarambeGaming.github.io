@@ -23,6 +23,19 @@ body {
   color: #00ffcc;
 }
 
+table, th, td {
+    border: 1px solid black;
+} 
+th, td {
+    padding: 15px;
+} 
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
